@@ -1,0 +1,74 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 90%;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  width: 23%;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  margin: 5px auto 2px auto;
+  border-bottom: 1.3px solid black;
+}
+
+.link:hover {
+  transition: 0.1s;
+  color: rgba(10, 10, 200, 0.9);
+  border-color: rgba(10, 10, 200, 0.9);
+}
+
+.button-container {
+  padding: 5px 0 5px 0;
+}
+
+.button {
+  width: 95px;
+  height: 25px;
+  margin: 6px 5px 6px 0;
+  outline: none;
+  letter-spacing: 0.25px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1.6px solid rgba(10, 10, 200, 0.2);
+  border-radius: 6px;
+  background: rgba(254, 254, 254, 0.9);
+}
+
+.button:hover {
+  border: 1.6px solid rgba(10, 10, 200, 0.3);
+  transition: 0.01s;
+}
+
+.button:active {
+  transition: 0.02s;
+  transform: translateY(1px);
+}
+
+.label {
+  width: 300px;
+  margin: 10px 0 10px 0;
+}
+
+.input {
+  width: 205px;
+  margin-top: 1px;
+  background-color: white;
+  outline: none;
+}
+
+.Error {
+  color: red;
+}
+
+.Result {
+  color: green;
+}
